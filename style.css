@@ -15,7 +15,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #000;
+  background-color: #111111;
   padding: 0.75rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -25,7 +25,7 @@
 }
 
 .nav-logo img {
-  height: 32px;
+  height: 50px;
   object-fit: contain;
 }
 
@@ -171,6 +171,166 @@
       gap: 1rem;
       text-align: center;
     }
+
+
+
+    /*//////// TOP TESTIMONIAL(ASHAIN BAIG)   ////////////////////////*/
+
+
+
+    .testimonial-section2 {
+  background: #000;
+  color: #fff;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-content2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.testimonial-text2 {
+  flex: 1;
+  padding: 60px 40px 60px 0;
+  min-width: 320px;
+}
+
+.testimonial-text2 p {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 1.3;
+  margin-top: 0;
+}
+
+.testimonial-profile2 {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-profile-img2 {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 18px;
+}
+
+.testimonial-profile-details2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-profile-details2 .name {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.testimonial-profile-details2 .location {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+.testimonial-image2 {
+  flex: 1;
+  text-align: right;
+  min-width: 320px;
+}
+
+.testimonial-image2 img {
+  max-width: 80%;
+  height: auto;
+}
+
+/*////////// END OF TOP TESTIMONIAL(ASHAIN BAIG)   ////////////////////////*/
+
+
+
+/*////////// WHAT YOU'LL WALK AWAY WITH  ////////////////////////*/
+.walk-away-section {
+  background: #141414;
+  color: #fff;
+  padding: 60px 20px 40px 20px;
+  text-align: center;
+ 
+}
+
+.walk-away-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 48px;
+  letter-spacing: 0.02em;
+  margin-bottom: 5rem;
+}
+
+.walk-away-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px 64px;
+  max-width: 1100px;
+  margin: 0 auto 48px auto;
+}
+
+.walk-away-item {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.walk-away-section img{
+ height: 3rem;
+ margin-bottom: 2rem;
+ 
+}
+
+.walk-away-item p {
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.walk-away-button-wrapper {
+  margin-top: 24px;
+}
+
+.walk-away-button {
+  display: inline-block;
+  background: linear-gradient(90deg, #e52d27 0%, #b31217 100%);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 16px 40px;
+  border-radius: 40px;
+  text-decoration: none;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.15);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.walk-away-button:hover, .walk-away-button:focus {
+  background: linear-gradient(90deg, #b31217 0%, #e52d27 100%);
+  transform: translateY(-2px) scale(1.02);
+}
+
+
+
+/*////////// END OF WHAT YOULL WALK AWAY WITH  ////////////////////////*/
+
+
     .testimonial, .host-section {
       background: #111;
       padding: 1rem;
